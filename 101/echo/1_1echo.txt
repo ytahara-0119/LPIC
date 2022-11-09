@@ -1,0 +1,10 @@
+echo ' >>> echo Linux '
+echo Linux
+echo ' >>> lpi='Linux Professional Institute' '
+lpi='Linux Professional Institute'
+echo ' >>> echo $lpi '
+echo $lpi
+echo ' >>> unset lpi '
+unset lpi
+echo ' >>> echo $lpi '
+echo $lpi

@@ -1,0 +1,6 @@
+echo ' >>> cat /etc/passwd | head -3 '
+cat /etc/passwd | head -3
+echo ' >>> cat /etc/passwd | cut -c 2 | head -3 '
+cat /etc/passwd | cut -c 2 | head -3
+echo ' >>> cat /etc/passwd | cut -d : -f 2,5 | head -3 '
+cat /etc/passwd | cut -d : -f 2,5 | head -3

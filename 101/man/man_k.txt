@@ -1,0 +1,4 @@
+echo ' ********************** '
+man -k xargs
+echo ' ********************** '
+apropos xargs

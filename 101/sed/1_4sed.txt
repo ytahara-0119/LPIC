@@ -1,0 +1,6 @@
+echo ' >>> cat 1_4.txt '
+cat 1_4.txt
+echo ' >>> cat 1_4.txt | sed y/ab/AB/ '
+cat 1_4.txt | sed y/ab/AB/
+echo ' >>> cat 1_4.txt | sed -e s/a/A/g -e s/b/B/g '
+cat 1_4.txt | sed -e s/a/A/g -e s/b/B/g

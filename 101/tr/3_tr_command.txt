@@ -1,0 +1,4 @@
+echo ' *********************** '
+cat 3_tr_alnum.txt
+echo ' *********************** '
+cat 3_tr_alnum.txt | tr -s [:alnum:]

@@ -1,0 +1,8 @@
+echo ' >>> cat file '
+cat file
+echo ' >>> cat file | uniq '
+cat file | uniq
+echo ' >>> cat file | uniq -d '
+cat file | uniq -d
+echo ' >>> cat file | uniq -u '
+cat file | uniq -u

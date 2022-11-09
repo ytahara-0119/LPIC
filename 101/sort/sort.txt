@@ -1,0 +1,12 @@
+echo ' cat *********************** '
+cat file
+echo ' A *********************** sort -f -k 3 -t , file'
+cat file | sort -f -k 3 -t , file
+echo ' B *********************** sort -f -k 3 -r -t , file'
+cat file | sort -f -k 3 -r -t , file
+echo ' C *********************** sort -f -k 3 -r  file'
+cat file | sort -f -k 3 -r  file
+echo ' D *********************** sort -k 3 -r -t , file'
+cat file | sort -k 3 -r -t , file
+echo ' E *********************** sort -k 3 -t , file'
+cat file | sort -k 3 -t , file

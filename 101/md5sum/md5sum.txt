@@ -1,0 +1,2 @@
+echo ' >>> md5sum -c checksum.txt '
+md5sum -c checksum.txt

@@ -1,0 +1,16 @@
+echo ' >>> mkdir -m 700 dir '
+mkdir -m 700 dir
+echo ' >>> ls -la '
+ls -la
+echo ' >>> rmdir dir '
+rmdir dir
+echo ' >>> ls -la '
+ls -la
+echo ' >>> mkdir -m 070 dir '
+mkdir -m 070 dir
+echo ' >>> ls -la '
+ls -la
+echo ' >>> rmdir dir '
+rmdir dir
+echo ' >>> ls -la '
+ls -la

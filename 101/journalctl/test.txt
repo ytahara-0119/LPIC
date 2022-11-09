@@ -1,0 +1,4 @@
+echo ' >>> journalctl -k | head -5 '
+journalctl -k | head -5
+echo ' >>> journalctl --dmesg | head -5 '
+journalctl --dmesg | head -5

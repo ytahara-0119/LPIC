@@ -1,0 +1,12 @@
+echo ' **************************** '
+ls fileA fileB
+echo ' A **************************** '
+ls fileA fileB > /dev/null
+echo ' B **************************** '
+ls fileA fileB > /dev/null 2>&1
+echo ' C **************************** '
+ls fileA fileB > /dev/null 1>&2
+echo ' D **************************** '
+ls fileA fileB 1>&2 > /dev/null
+echo ' E **************************** '
+ls fileA fileB 2>&1 > /dev/null

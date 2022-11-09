@@ -1,0 +1,16 @@
+echo ' >>> cat file1 '
+cat file1
+echo ' >>> ln file1 file2 '
+ln file1 file2
+echo ' >>> ls -la '
+ls -la
+echo ' >>> cat file2 '
+cat file2
+echo ' >>> rm file1 '
+rm file1
+echo ' >>> ls -la '
+ls -la
+echo ' >>> cat file2 '
+cat file2
+echo ' >>> mv file2 file1 '
+mv file2 file1

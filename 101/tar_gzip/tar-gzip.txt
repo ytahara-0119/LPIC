@@ -1,0 +1,4 @@
+echo ' >>> gzip -cd dir_urandom.tar.gz | tar ftv - '
+gzip -cd dir_urandom.tar.gz | tar ftv -
+echo ' >>> tar ftvz dir_zero.tar.gz '
+tar ftvz dir_zero.tar.gz

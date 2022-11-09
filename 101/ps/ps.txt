@@ -1,0 +1,4 @@
+echo ' ps ax ********************** '
+ps ax | head -n 5
+echo ' ps -ef ********************** '
+ps -ef | head -5

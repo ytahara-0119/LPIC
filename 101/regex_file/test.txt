@@ -1,0 +1,8 @@
+echo ' >>> find . -type f '
+find . -type f
+echo ' >>> find . -type f | grep -E [a-z][a-z][a-z].txt '
+find . -type f | grep -E --color '[a-z][a-z][a-z].txt$'
+echo ' >>> find . -type f | grep -E xy?.txt '
+find . -type f | grep -E --color 'xy?.txt$'
+echo ' >>> find . -type f | grep -E *[xyz].txt '
+find . -type f | grep -E --color '*[xyz].txt$'

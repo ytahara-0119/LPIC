@@ -1,0 +1,16 @@
+echo ' ******************** ls '
+ls
+echo ' ********* split -500 text.txt hoge '
+split -500 text.txt hoge
+echo ' ******************** ls '
+ls
+echo ' ******************** cat hogeaa | head -n 5 '
+cat hogeaa | head -n 5
+echo ' ******************** cat hogeab | head -n 5 '
+cat hogeab | head -n 5
+echo ' ******************** cat hogeac | head -n 5 '
+cat hogeac | head -n 5
+echo ' ******************** rm hogeaa hogeab hogeac '
+rm hogeaa hogeab hogeac
+echo ' ******************** ls '
+ls

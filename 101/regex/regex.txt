@@ -1,0 +1,14 @@
+echo ' >>> cat test.txt '
+cat test.txt
+echo ' >>> cat test.txt | grep -E '^1.*5$' '
+cat test.txt | grep -E '^1.*5$' --color
+echo ' >>> cat test.txt | grep -E '1[2-5]' '
+cat test.txt | grep -E '1[2-5]' --color
+echo ' >>> cat test.txt | grep -E '[^1-5]' '
+cat test.txt | grep -E '[^1-5]' --color
+echo ' >>> cat test.txt | grep -E '[1-5]' '
+cat test.txt | grep -E '[1-5]' --color
+echo ' >>> cat test.txt | grep -E '^15$' '
+cat test.txt | grep -E '^15$' --color
+echo ' >>> cat test.txt | grep -E '1...5' '
+cat test.txt | grep -E '1...5' --color

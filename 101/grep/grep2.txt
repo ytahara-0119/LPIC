@@ -1,0 +1,6 @@
+echo ' ********************** '
+cat grep2target.txt
+echo ' ********************** '
+grep ^# grep2target.txt
+echo ' ********************** '
+grep ^# grep2target.txt | wc -l

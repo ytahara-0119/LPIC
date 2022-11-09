@@ -1,0 +1,20 @@
+DATE=$(date)
+echo ' >>> echo $DATE '
+echo $DATE
+echo ' >>> echo '$DATE' '
+echo '$DATE'
+echo ' >>> echo "Today is $DATE" '
+echo "Today is $DATE"
+echo ' >>> echo "expression \$DATE is [$DATE]" '
+echo "expression \$DATE is [$DATE]"
+echo ' >>> echo "current directory is `pwd` " '
+echo "current directory is `pwd` "
+echo ' >>> echo "current directory is $(pwd) !!!" '
+echo "current directory is $(pwd) !!!"
+
+DATE=date
+echo $DATE
+echo '$DATE'
+echo "$DATE"
+echo `$DATE`
+echo $($DATE)

@@ -1,0 +1,14 @@
+echo ' >>> touch -t 201201011122.33 file.txt '
+touch -t 201201011122.33 file.txt 
+echo ' >>> stat file.txt | tail -4 | head -2  '
+stat file.txt | tail -4 | head -2 
+echo ' >>> touch -mt 201509092330.00 file.txt '
+touch -mt 201509092330.00 file.txt
+echo ' >>> stat file.txt | tail -4 | head -2  '
+stat file.txt | tail -4 | head -2 
+echo ' >>> touch -at 202009092330.00 file.txt '
+touch -at 202009092330.00 file.txt
+echo ' >>> stat file.txt | tail -4 | head -2 '
+stat file.txt | tail -4 | head -2
+echo ' >>> rm file.txt '
+rm file.txt

@@ -1,0 +1,4 @@
+echo ' >>> od /bin/ls | head -5 '
+od /bin/ls | head -5
+echo ' >>> od -t o /bin/ls | head -5 '
+od -t o /bin/ls | head -5
