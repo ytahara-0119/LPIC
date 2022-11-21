@@ -2,5 +2,11 @@ echo ' >>> cat /etc/hosts | head -3 '
 cat /etc/hosts | head -3
 echo ' >>> tr a-z A-Z < /etc/hosts '
 tr a-z A-Z < /etc/hosts | head -3
-echo ' >>> cat /etc/hosts | tr a-z A-Z '
+echo ' >>> cat /etc/hosts | tr [:lower:] [:upper:] | head -3 '
 cat /etc/hosts | tr [:lower:] [:upper:] | head -3
+echo ' >>> cat /etc/hosts | tr -d 'Yy' | head -3 '
+cat /etc/hosts | tr -d 'Yy' | head -3
+echo ' >>> cat /etc/hosts | tr 'Yy' '' | head -3 '
+cat /etc/hosts | tr 'Yy' '' | head -3
+echo ' >>> cat /etc/hosts | tr 'Yy' 'Zz' | head -3 '
+cat /etc/hosts | tr 'Yy' 'Zz' | head -3

@@ -1,4 +1,4 @@
-echo ' ################ '
+echo ' >>> dpkg -s dpkg | grep -A 7 'Conffiles' '
 dpkg -s dpkg | grep -A 7 'Conffiles'
-echo ' ################ '
+echo ' >>> dpkg -S /etc/dpkg/dpkg.cfg '
 dpkg -S /etc/dpkg/dpkg.cfg

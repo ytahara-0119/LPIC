@@ -1,0 +1,26 @@
+echo ' >>> create configure '
+cat << EOF > configure
+aaaaa
+bbbbb
+ccccc
+ddddd
+eeeee
+fffff
+EOF
+
+echo ' >>> cat configure | head -5 '
+cat configure | head -5
+echo ' >>> xz configure '
+xz configure
+echo ' >>> ls '
+ls
+echo ' >>> file configure.xz '
+file configure.xz
+echo ' >>> cat configure.xz |  head -5 '
+cat configure.xz |  head -5
+echo ' >>> xzcat configure.xz | head -5 '
+xzcat configure.xz | head -5
+echo ' >>> rm configure.xz '
+rm configure.xz
+echo ' >>> ls '
+ls
