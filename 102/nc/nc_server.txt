@@ -1,0 +1,1 @@
+while : ; do sed '1iHTTP/1.1 200 OK\nContent-Type: text/plain\n' server.txt | nc -N -l -p 8080; done

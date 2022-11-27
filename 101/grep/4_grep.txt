@@ -1,0 +1,4 @@
+echo ' >>> cat sample/sample4.txt '
+cat sample/sample4.txt
+echo ' >>> cat sample/sample4.txt | grep '1234.' --color '
+cat sample/sample4.txt | grep '1234.' --color

@@ -1,0 +1,10 @@
+echo ' >>> cat sample/sample3.txt '
+cat sample/sample3.txt
+echo ' >>> grep --color -E 'bu?!' sample/sample3.txt '
+grep --color -E 'bu?!' sample/sample3.txt
+echo ' >>> grep --color -E 'bu+!' sample/sample3.txt '
+grep --color -E 'bu+!' sample/sample3.txt
+echo ' >>> grep --color -E 'bu*!' sample/sample3.txt '
+grep --color -E 'bu*!' sample/sample3.txt
+echo ' >>> grep --color -E 'bu.!' sample/sample3.txt '
+grep --color -E 'bu.!' sample/sample3.txt

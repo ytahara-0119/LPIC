@@ -1,0 +1,4 @@
+echo ' >>> cat sample/sample5.txt '
+cat sample/sample5.txt
+echo ' >>> cat sample/sample5.txt | grep -E 'a.[^b]d' '
+cat sample/sample5.txt | grep -E --color 'a.[^b]d'

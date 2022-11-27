@@ -1,0 +1,6 @@
+echo ' >>> cat sample/sample2.txt '
+cat sample/sample2.txt | head -5
+echo ' >>> grep ^# sample/sample2.txt '
+grep --color ^# sample/sample2.txt
+echo ' >>> grep ^# sample/sample2.txt | wc -l '
+grep ^# sample/sample2.txt | wc -l

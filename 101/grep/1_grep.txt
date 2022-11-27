@@ -1,0 +1,12 @@
+echo '1. >>> cat sample/sample1.txt '
+cat sample/sample1.txt
+echo '2. >>> grep '*04-[0-3][0-9]*' sample/sample1.txt '
+grep --color '*04-[0-3][0-9]*' sample/sample1.txt
+echo '3. >>> grep '+04-[0-3][0-9]+' sample/sample1.txt '
+grep --color '+04-[0-3][0-9]+' sample/sample1.txt
+echo '4. >>> grep -v '04-[0-3][0-9]' sample/sample1.txt '
+grep --color -v '04-[0-3][0-9]' sample/sample1.txt
+echo '5. >>> grep -E '04-[0-3][0-9]' sample/sample1.txt '
+grep --color -E '04-[0-3][0-9]' sample/sample1.txt
+echo '6. >>> grep '04-[0-3][0-9]' sample/sample1.txt '
+grep --color '04-[0-3][0-9]' sample/sample1.txt
