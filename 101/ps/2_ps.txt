@@ -1,0 +1,17 @@
+echo ' >>> PID=$$ '
+PID=$$
+
+echo ' >>> echo $PID '
+echo "$PID"
+
+echo ' >>> ps -ef | grep "$PID" | grep -v grep '
+ps -ef | grep "$PID" | grep -v grep
+
+echo ' >>> who -Hu '
+who -Hu
+
+echo ' >>> pstree sshd '
+pstree -p | grep --color sshd
+
+echo ' >>> cat /proc/"$PID"/stat '
+cat /proc/"$PID"/stat

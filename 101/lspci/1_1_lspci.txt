@@ -1,0 +1,4 @@
+echo ' >>> lspci '
+lspci
+echo ' pci setting files >>> ls /proc/bus/pci/devices '
+ls /proc/bus/pci/devices

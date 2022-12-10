@@ -1,0 +1,4 @@
+echo ' >>> lsmod | head -n 5 '
+lsmod | head -n 5
+echo ' >>> ls /proc/modules '
+ls /proc/modules

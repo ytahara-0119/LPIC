@@ -1,0 +1,8 @@
+echo ' >>> ps aux | head -2 '
+ps aux | head -2
+echo ' >>> ps -ef | head -2 '
+ps -ef | head -2
+echo ' >>> ps axl | head -2 '
+ps axl | head -2
+echo ' >>> ps -efl | head -2 '
+ps -efl | head -2
