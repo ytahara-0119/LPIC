@@ -1,0 +1,14 @@
+echo ' >>> cat sample/sample6.txt '
+cat sample/sample6.txt
+echo ' >>> grep -i '[a-z]' sample/sample6.txt '
+grep -i --color '[a-z]' sample/sample6.txt
+echo ' >>> grep --color '^[A-Z]' sample/sample6.txt '
+grep --color '^[A-Z]' sample/sample6.txt
+echo ' >>> grep --color '^[a-z]' sample/sample6.txt '
+grep --color '^[a-z]' sample/sample6.txt
+echo ' >>> grep --color -v '^[A-Z]' sample/sample6.txt '
+grep --color -v '[A-Z]' sample/sample6.txt
+echo ' >>> grep --color '[a-z]' sample/sample6.txt '
+grep --color '[a-z]' sample/sample6.txt
+echo ' >>> grep --color '[^A-Z]' sample/sample6.txt '
+grep --color '[^A-Z]' sample/sample6.txt

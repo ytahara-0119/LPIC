@@ -1,0 +1,4 @@
+echo ' >>> cat sample/sample2.txt '
+cat sample/sample2.txt
+echo ' >>> cat sample/sample2.txt | sed 1,3d '
+cat sample/sample2.txt | sed 1,3d

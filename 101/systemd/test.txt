@@ -1,2 +1,0 @@
-echo ' >>> ls -l /usr/lib/systemd/system/runlevel?.target '
-ls -l /usr/lib/systemd/system/runlevel?.target

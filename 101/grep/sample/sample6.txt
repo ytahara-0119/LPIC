@@ -1,0 +1,5 @@
+NAME
+grep, egrep, fgrep - print lines matching a pattern
+SYNOPSIS
+grep [options] PATTERN [FILE...]
+grep [options] [-e PATTERN | -f FILE] [FILE...]

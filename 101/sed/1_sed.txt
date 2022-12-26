@@ -1,0 +1,4 @@
+echo ' >>> cat sample/sample1.txt '
+cat sample/sample1.txt
+echo ' >>> cat sample/sample1.txt | sed -e 's/pingt/hoge/g' -e /^#/d '
+cat sample/sample1.txt | sed -e 's/pingt/hoge/g' -e /^#/d

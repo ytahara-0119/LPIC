@@ -1,0 +1,13 @@
+echo ' >>> cat sample/sample5.txt '
+cat sample/sample5.txt
+echo ' >>> sed s/exe/sh/g sample/sample5.txt '
+sed s/exe/sh/g sample/sample5.txt
+# echo ' >>> sed "s/exe/\x1b[38;5;9m\sh\x1b[0m/g" sample/sample5.txt '
+# sed "s/exe/\x1b[38;5;9m\sh\x1b[0m/g" sample/sample5.txt
+echo ' >>> sed 's/\.exe$/\.sh/g' sample/sample5.txt '
+sed 's/\.exe$/\.sh/g' sample/sample5.txt
+echo ' >>> sed 's/\.exe/\.sh/g' sample/sample5.txt '
+sed 's/\.exe/\.sh/g' sample/sample5.txt
+echo ' >>> sed 's/.exe/.sh/g' sample/sample5.txt '
+#sed 's/.exe/.sh/g' sample/sample5.txt
+sed 's/.exe/\x1b[38;5;9m\.sh\x1b[0m/g' sample/sample5.txt
