@@ -1,5 +1,0 @@
-echo ' ******************************** '
-cat /var/log/syslog | head -n 5
-echo ' ******************************** '
-tr a-z A-Z < /var/log/syslog | head -n 5
-

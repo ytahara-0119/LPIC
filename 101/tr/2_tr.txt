@@ -1,0 +1,4 @@
+echo ' >>> cat sample/2_trAa.txt '
+cat sample/2_trAa.txt
+echo ' >>> tr a-z A-Z < sample/2_trAa.txt '
+tr a-z A-Z < sample/2_trAa.txt

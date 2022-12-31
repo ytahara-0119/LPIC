@@ -1,0 +1,4 @@
+echo ' >>> cat sample/3_tr_alnum.txt '
+cat sample/3_tr_alnum.txt
+echo ' >>> cat sample/3_tr_alnum.txt | tr -s [:alnum:] '
+cat sample/3_tr_alnum.txt | tr -s [:alnum:]

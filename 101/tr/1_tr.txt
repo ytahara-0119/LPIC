@@ -1,0 +1,6 @@
+echo ' >>> cat sample/tr_space.txt '
+cat sample/tr_space.txt
+echo ' >>> cat sample/tr_space.txt | tr -s " " '
+cat sample/tr_space.txt | tr -s " "
+echo ' >>> tr -s [:space:] < sample/tr_space.txt '
+tr -s [:space:] < sample/tr_space.txt

@@ -1,0 +1,6 @@
+echo ' >>> cat sample/test.txt | head -6 '
+cat sample/test.txt | head -6
+echo ' >>> cat -n sample/test.txt | head -6 '
+cat -n sample/test.txt | head -6
+echo ' >>> nl -b a sample/test.txt | head -6 '
+nl -b a sample/test.txt | head -6
