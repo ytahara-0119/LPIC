@@ -1,8 +1,0 @@
-echo ' >>> date '
-date
-echo ' >>> find . -mtime -3 '
-find . -type f -mtime -3 | head -n 5 | xargs ls -la
-echo ' >>> find . -mtime 3 '
-find . -type f -mtime 3 | head -n 5 | xargs ls -la
-echo ' >>> find . -mtime +3 '
-find . -type f -mtime +3 | head -5 | xargs ls -la

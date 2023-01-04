@@ -1,0 +1,6 @@
+echo ' >>> cat sample/test2.txt '
+cat sample/test2.txt
+echo ' >>> tr -d c < sample/test2.txt '
+tr -d c < sample/test2.txt
+echo ' >>> cat sample/test2.txt | tr -d c '
+cat sample/test2.txt | tr -d c
