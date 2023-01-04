@@ -1,0 +1,15 @@
+echo ' >>> cat /etc/ld.so.conf | head -n 2 '
+cat /etc/ld.so.conf | head -n 2
+echo ' >>> ls -lA /lib | head -n 2 '
+ls -lA /lib | head -n 2
+echo ' >>> ls -lA /usr/lib | head -n 3 '
+ls -lA /usr/lib | head -n 3
+echo ' >>> ls -lA /lib64 | head -n 2 '
+ls -lA /lib64 | head -n 2
+echo ' >>> ls -lA /usr/lib64 | head -n 3 '
+ls -lA /usr/lib64 | head -n 3
+echo ' >>> ldd /bin/bash '
+ldd /bin/bash
+echo ' >>> ldconfig -p | head -n 5 '
+echo ' >>> print /etc/ld.so.cache '
+ldconfig -p | head -n 5
