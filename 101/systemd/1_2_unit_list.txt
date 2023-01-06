@@ -1,0 +1,4 @@
+echo ' >>> systemctl list-units --type=target | head -n 5 '
+systemctl list-units --type=target | head -n 5
+echo ' >>> systemctl list-unit-files --type=service | head -n 5 '
+systemctl list-unit-files --type=service | head -n 5
