@@ -1,4 +1,0 @@
-echo ' >>> ls -l /usr/lib/systemd/system/runlevel?.target '
-ls -l /usr/lib/systemd/system/runlevel?.target
-echo ' >>> ls -l /etc/systemd/system/multi-user.target.wants | head -n 5 '
-ls -l /etc/systemd/system/multi-user.target.wants | head -n 5
