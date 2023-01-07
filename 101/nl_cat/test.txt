@@ -1,0 +1,10 @@
+echo ' >>> cat file '
+cat file
+echo ' >>> cat -n file '
+cat -n file
+echo ' >>> nl -b a file '
+nl -b a file
+echo ' >>> cat -b file '
+cat -b file
+echo ' >>> nl file '
+nl file

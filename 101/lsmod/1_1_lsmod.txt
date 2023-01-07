@@ -1,4 +1,4 @@
 echo ' >>> lsmod | head -n 5 '
 lsmod | head -n 5
-echo ' >>> ls /proc/modules '
-ls /proc/modules
+echo ' >>> cat /proc/modules | head -n 5 '
+cat /proc/modules | head -n 5

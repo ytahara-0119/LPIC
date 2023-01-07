@@ -1,0 +1,8 @@
+echo ' >>> mount | head -n 5 '
+mount | head -n 5
+echo ' >>> cat /proc/mounts | head -n 5 '
+cat /proc/mounts | head -n 5
+echo ' >>> cat /proc/self/mounts | head -n 5 '
+cat /proc/self/mounts | head -n 5
+echo ' >>> cat /etc/mtab | head -n 5 '
+cat /etc/mtab | head -n 5
