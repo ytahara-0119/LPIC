@@ -1,0 +1,12 @@
+echo ' >>> cat /etc/hostname '
+cat /etc/hostname
+echo ' >>> cat /etc/sysconfig/network '
+cat /etc/sysconfig/network
+echo ' >>> cat /etc/hosts | head -n 5 '
+cat /etc/hosts | head -n 5
+echo ' >>> cat /etc/nsswitch.conf | grep -v '^#' | head -n 5 '
+cat /etc/nsswitch.conf | grep -v '^#' | head -n 5
+echo ' >>> cat /etc/resolv.conf | grep -v '^#' |head -n 5 '
+cat /etc/resolv.conf | grep -v '^#' |head -n 5
+echo ' >>> cat /etc/services | grep -v '^#' | head -n 5 '
+cat /etc/services | grep -v '^#' | head -n 5

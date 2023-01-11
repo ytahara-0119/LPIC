@@ -1,0 +1,4 @@
+echo ' >>> ./sample/sample1_1.sh a b c d e f g h i j k '
+./sample/sample1_1.sh a b c d e f g h i j k
+echo ' >>> ./sample/sample1_2.sh a b c d e f g h i j k '
+./sample/sample1_2.sh a b c d e f g h i j k
