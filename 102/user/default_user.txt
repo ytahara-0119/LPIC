@@ -1,0 +1,4 @@
+echo ' >>> cat /etc/default/useradd | grep '=' '
+cat /etc/default/useradd | grep '='
+echo ' >>> useradd -D '
+useradd -D

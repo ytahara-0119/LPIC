@@ -1,0 +1,2 @@
+echo ' >>> systemctl list-timers '
+systemctl list-timers

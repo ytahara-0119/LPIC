@@ -1,0 +1,4 @@
+echo ' >>> getent passwd | head -n 5 '
+getent passwd | head -n 5
+echo ' >>> getent passwd ubuntu '
+getent passwd ubuntu

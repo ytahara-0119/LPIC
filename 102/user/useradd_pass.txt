@@ -1,0 +1,8 @@
+echo ' >>> getent passwd test '
+getent passwd test
+echo ' >>> useradd '
+sudo useradd -p $(perl -e 'print crypt("password99", "\$6\$salt99")') test 
+echo ' >>> getent passwd test '
+getent passwd test
+echo ' >>> sudo getent shadow test '
+sudo getent shadow test

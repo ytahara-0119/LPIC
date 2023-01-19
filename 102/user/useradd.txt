@@ -1,0 +1,8 @@
+echo ' >>> getent passwd yuko '
+getent passwd yuko
+echo ' >>> useradd yuko '
+sudo useradd yuko
+echo ' >>> getent passwd yuko '
+getent passwd yuko
+echo ' >>> sudo getent shadow yuko '
+sudo getent shadow yuko

@@ -1,0 +1,8 @@
+echo ' >>> getent passwd test '
+getent passwd test
+echo ' >>> userdel test '
+sudo userdel test
+echo ' >>> getent passwd test '
+getent passwd test
+echo ' >>> sudo getent passwd test '
+sudo getent passwd test

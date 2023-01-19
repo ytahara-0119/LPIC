@@ -1,0 +1,14 @@
+echo ' >>> echo $TEST '
+echo $TEST
+echo ' >>> export TEST=102TEST '
+export TEST=102TEST
+echo ' >>> echo $TEST '
+echo $TEST
+echo ' >>> env | grep TEST '
+env | grep TEST
+echo ' >>> unset TEST '
+unset TEST
+echo ' >>> env | grep TEST '
+env | grep TEST
+echo ' >>> echo $TEST '
+echo $TEST

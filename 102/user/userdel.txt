@@ -1,0 +1,8 @@
+echo ' >>> getent passwd yuko '
+getent passwd yuko
+echo ' >>> userdel yuko '
+sudo userdel yuko
+echo ' >>> getent passwd yuko '
+getent passwd yuko
+echo ' >>> sudo getent passwd yuko '
+sudo getent passwd yuko

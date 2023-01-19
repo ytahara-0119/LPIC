@@ -1,0 +1,17 @@
+echo ' >>> ls -l /etc | grep cron\\. '
+ls -l /etc | grep cron\\.
+echo ' user setting >>> ls /var/spool/cron '
+ls /var/spool/cron
+
+echo ' system setting >>> cat /etc/crontab '
+cat /etc/crontab
+echo ' >>> ls /etc/cron.d '
+ls /etc/cron.d
+echo ' >>> ls /etc/cron.hourly '
+ls /etc/cron.hourly
+echo ' >>> ls /etc/cron.daily '
+ls /etc/cron.daily
+echo ' >>> ls /etc/cron.weekly '
+ls /etc/cron.weekly
+echo ' >>> ls /etc/cron.monthly '
+ls /etc/cron.monthly

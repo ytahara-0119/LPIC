@@ -1,0 +1,6 @@
+echo ' >>> timedatectl '
+timedatectl
+echo ' >>> timedatectl status '
+timedatectl status
+echo ' >>> timedatectl list-timezones | head -n 5 '
+timedatectl list-timezones | head -n 5

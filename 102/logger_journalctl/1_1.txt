@@ -1,0 +1,4 @@
+echo ' >>> logger Test Message2 '
+logger Test Message2
+echo ' >>> journalctl --reverse | head -n 5 '
+journalctl --reverse | head -n 5
