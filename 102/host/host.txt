@@ -1,0 +1,4 @@
+echo ' >>> host -t mx yahoo.co.jp '
+host -t mx yahoo.co.jp
+echo ' >>> host -v yahoo.co.jp | head -n 5'
+host -v yahoo.co.jp | head -n 5

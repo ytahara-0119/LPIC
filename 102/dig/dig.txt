@@ -1,0 +1,4 @@
+echo ' >>> dig @8.8.8.8 yahoo.co.jp '
+dig @8.8.8.8 yahoo.co.jp
+echo ' >>> dig yahoo.co.jp ns'
+dig yahoo.co.jp ns

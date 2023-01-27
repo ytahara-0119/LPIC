@@ -1,0 +1,6 @@
+echo ' >>> ip address '
+ip address
+echo ' >>> ip -br address '
+ip -br address
+echo ' >>> ip -br -c address '
+ip -br -c address

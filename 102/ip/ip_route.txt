@@ -1,0 +1,6 @@
+echo ' >>> ip route show '
+ip route show
+echo ' >>> route '
+route
+echo ' >>> netstat -r '
+netstat -r

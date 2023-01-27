@@ -1,0 +1,2 @@
+echo ' >>> ip link show '
+ip link show

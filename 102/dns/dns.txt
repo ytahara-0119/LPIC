@@ -1,0 +1,8 @@
+echo ' >>> nslookup ping-t.com '
+nslookup ping-t.com
+echo ' >>> host ping-t.com '
+host ping-t.com
+echo ' >>> dig ping-t.com | grep -v -e ";" -e "^$" '
+dig ping-t.com | grep -v -e ';' -e '^$'
+echo ' >>> getent hosts ping-t.com '
+getent hosts ping-t.com
