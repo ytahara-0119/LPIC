@@ -1,0 +1,2 @@
+echo ' >>> ifconfig enp0s1 '
+ifconfig enp0s1

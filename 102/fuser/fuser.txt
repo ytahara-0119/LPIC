@@ -1,0 +1,6 @@
+echo ' >>> fuser -muv /mnt '
+fuser -muv /mnt
+echo ' >>> fuser -u /bin/bash '
+fuser -u /bin/bash
+echo ' >>> fuser -v /bin/bash '
+fuser -v /bin/bash

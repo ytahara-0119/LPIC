@@ -1,0 +1,2 @@
+echo ' >>> ulimit -a '
+ulimit -a
