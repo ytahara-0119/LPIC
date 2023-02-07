@@ -1,0 +1,4 @@
+echo ' >>> ./sample/for_in_seq1.sh '
+./sample/for_in_seq1.sh
+echo ' >>> ./sample/for_in_seq2.sh '
+./sample/for_in_seq2.sh

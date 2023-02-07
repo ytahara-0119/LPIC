@@ -1,0 +1,10 @@
+echo ' >>> nmcli general status '
+nmcli general status
+echo ' >>> nmcli networking connectivity '
+nmcli networking connectivity
+echo ' >>> nmcli radio wifi '
+nmcli radio wifi
+echo ' >>> nmcli connection show '
+nmcli connection show
+echo ' >>> nmcli device status '
+nmcli device status

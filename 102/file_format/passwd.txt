@@ -1,0 +1,4 @@
+echo ' >>> cat /etc/passwd | head -n 5 '
+cat /etc/passwd | head -n 5
+echo ' =======================================  '
+echo ' |username|passwd|UID|GID|comment|homedir|login shell|'
